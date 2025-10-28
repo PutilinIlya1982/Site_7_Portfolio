@@ -1,0 +1,122 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.features {
+}
+.title {
+    width: 210px;
+    height: 60px;
+    margin: 94px auto;
+    text-align: center;
+}
+.title h2 {
+    color: rgba(61, 79, 159, 1);
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 10%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.title p {
+    color: rgba(61, 79, 159, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center; 
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    width: 761px;
+    height: 254px;
+    margin: 0 auto;
+}
+.cards_item-1 {
+    width: 140px;
+    height: 254px;
+    align-items: center;
+}
+.cards_item-2 {
+    width: 140px;
+    height: 254px;
+}
+.cards_item-3 {
+    width: 140px;
+    height: 254px;
+}
+.cards_item-4 {
+    width: 140px;
+    height: 254px;
+}
+h3 {
+    color: rgba(64, 116, 248, 1);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+p {
+    color: rgba(173, 179, 203, 1);
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0%;
+    text-align: center; 
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto; 
+    width: 337px;
+    height: 43px;
+}
+.buttons_readmore {
+    width: 113px;
+    height: 43px;
+    background-color: rgba(255, 215, 215, 1);
+    color: rgba(212, 63, 63, 1);
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 13px;
+
+}
+.buttons_getstarted {
+    width: 113px;
+    height: 43px;
+    background-color: rgba(210, 225, 255, 1);
+    color: rgba(58, 121, 255, 1);
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 13px;
+}
